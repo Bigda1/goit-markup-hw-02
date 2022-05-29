@@ -1,0 +1,93 @@
+/* Основной цвет текста    color: #212121;*/
+/* Цвет лого   color: #2196F3; */
+/* Цвет ссылок   color: #757575; */
+
+
+body{
+    background: #E5E5E5;
+    color: #212121;
+}
+ul {
+    list-style: none;
+}
+/* Заголовок */
+.logo{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.site-nav{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.site-nav:hover{
+    color: #2196F3;
+}
+.mail{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.mail:hover{
+    color: #2196F3;
+}
+.phone{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+.phone:hover{
+    color: #2196F3;
+}
+/* Головний контент */
+.button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.button:hover{
+    background-color: #2196F3;
+}
+
+.name-of-prod{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.link{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.link:hover{
+    color: #2196F3;
+}
+
+/* Футер */
+.footer{
+    background: #2F303A;
+}
+.street{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+}
