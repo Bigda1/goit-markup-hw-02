@@ -31,7 +31,10 @@ body{
     letter-spacing: 0.02em;
     color: #212121;
 }
-.site-nav:hover,:focus{
+.site-nav:hover{
+    color: #2196F3;
+}
+.site-nav:focus{
     color: #2196F3;
 }
 .mail{
@@ -41,7 +44,10 @@ body{
     letter-spacing: 0.02em;
     color: #757575;
 }
-.mail:hover,:focus{
+.mail:hover{
+    color: #2196F3;
+}
+.mail:focus{
     color: #2196F3;
 }
 .phone{
@@ -51,7 +57,10 @@ body{
     letter-spacing: 0.02em;
     color: #757575;
 }
-.phone:hover,:focus{
+.phone:hover{
+    color: #2196F3;
+}
+.phone:focus{
     color: #2196F3;
 }
 /* Головний контент */
@@ -63,14 +72,20 @@ body{
     letter-spacing: 0.03em;
     color: #212121;
 }
-cursor{
+.cursor{
     cursor:pointer;
 }
-.button:hover,:focus{
+.button:hover{
     background-color: #2196F3;
 }
-.button-text:hover,:focus{
-    color: white;
+.button:focus{
+    color: #2196F3;
+}
+.button-text:hover{
+    color:  #2196F3;;
+}
+.button-text:focus{
+    color: #2196F3;
 }
 
 .name-of-prod{
@@ -88,7 +103,10 @@ cursor{
     letter-spacing: 0.03em;
     color: #757575;
 }
-.link:hover,:focus{
+.link:hover{
+    color: #2196F3;
+}
+.link:focus{
     color: #2196F3;
 }
 
