@@ -45,6 +45,13 @@ body{
     letter-spacing: 0.02em;
     color: #757575;
 }
+
+.mail-link:hover{
+color: #2196F3;
+}
+.mail-link:focus{
+    color: #2196F3;
+}
 .mail:hover{
     color: #2196F3;
 }
@@ -62,6 +69,12 @@ body{
     color: #2196F3;
 }
 .phone:focus{
+    color: #2196F3;
+}
+.phone-link:hover{
+    color: #2196F3;
+}
+.phone-link:focus{
     color: #2196F3;
 }
 /* Головний контент */
@@ -116,12 +129,12 @@ body{
     background: #2F303A;
 }
 .white-part-logo{
-    color: #FFFFFF;
+    color: #000000;
 }
 .street{
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #FFFFFF;
+    color: #000000;
 }
