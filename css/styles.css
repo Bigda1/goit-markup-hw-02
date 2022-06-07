@@ -10,11 +10,13 @@ body{
 }
 .hero{
     font-weight: 900;
-        font-size: 44px;
-        line-height: 1.36;
-        text-align: center;
-        letter-spacing: 0.06em;
-        text-transform: uppercase;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    background: #2F303A;
+    color: #ffffff;
 }
 .hero-button{
     background-color: #2196f3;
@@ -118,7 +120,11 @@ font-weight: 700;
     color: #2196F3;
 }
 .contacts{
-    color: #757575;
+color: rgba(255, 255, 255, 0.6);
+    font-weight: 100;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
 }
 
 .mail{
@@ -226,5 +232,5 @@ color: #2196F3;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
-    color: #000000;
+    color: #ffffff;
 }
