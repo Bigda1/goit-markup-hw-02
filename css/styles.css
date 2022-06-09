@@ -13,31 +13,36 @@ body{
     color: var(--almoust-black);
     font-family: 'Roboto', sans-serif;
 }
-.hero{
+.hero {
+    background: #2F303A;
+}
+
+.hero-title {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    background: #2F303A;
     color: var(--white);
 }
-.hero-button{
+
+.hero-button {
     background-color: var(--main-text-color);
     cursor: pointer;
     font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.875;
-        font-family: 'Roboto';
-            font-style: normal;
-            font-weight: 700;
-            font-size: 16px;
-            line-height: 30px;
-            color: var(--white);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    color: var(--white);
+    margin: 0 auto;
+    display: block;
 }
+.hero-button:hover{
+        background: #188CE8;
+}
+
 .benefits{
 font-weight: 700;
     font-size: 36px;
@@ -102,6 +107,7 @@ font-weight: 700;
 }
 /* Заголовок */
 .logo{
+    font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.192;
@@ -139,7 +145,7 @@ color: rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 1.142;
     letter-spacing: 0.02em;
-    color: var(--grey);
+color: rgba(255, 255, 255, 0.6);
 }
 
 .mail-link:hover{
@@ -159,7 +165,7 @@ color: var(--main-text-color);
     font-size: 14px;
     line-height: 1.142;
     letter-spacing: 0.02em;
-    color: var(--grey);
+color: rgba(255, 255, 255, 0.6);
 }
 .phone:hover{
     color: var(--main-text-color);
