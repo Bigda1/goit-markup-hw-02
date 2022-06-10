@@ -117,6 +117,8 @@ font-weight: 700;
 .black-part-logo{
     color: var(--almoust-black);
 }
+
+
 .site-nav{
     font-weight: 500;
     font-size: 14px;
@@ -132,7 +134,7 @@ font-weight: 700;
 }
 .contacts{
 color: rgba(255, 255, 255, 0.6);
-    font-weight: 100;
+    font-weight: 500;
     font-size: 14px;
     line-height: 1.142;
     letter-spacing: 0.02em;
@@ -141,7 +143,7 @@ color: rgba(255, 255, 255, 0.6);
     color: var(--grey)
 }
 .mail{
-    font-weight: 500;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.142;
     letter-spacing: 0.02em;
@@ -161,7 +163,7 @@ color: var(--main-text-color);
     color: var(--main-text-color);
 }
 .phone{
-    font-weight: 500;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.142;
     letter-spacing: 0.02em;
@@ -201,17 +203,25 @@ color: rgba(255, 255, 255, 0.6);
 .cursor{
     cursor:pointer;
 }
+.button-link:hover{
+    background: var(--main-text-color);
+    color: var(--white);
+}
 .button:hover{
     background-color: var(--main-text-color);
+        color: var(--white);
 }
 .button:focus{
-    color: var(--main-text-color);
+    background-color: var(--main-text-color);
+    color: var(--white);
 }
 .button-text:hover{
     color:  var(--main-text-color);
+    color: var(--white);
 }
 .button-text:focus{
-    color: var(--main-text-color);
+    background-color: var(--main-text-color);
+    color: var(--white);
 }
 
 .name-of-prod{
